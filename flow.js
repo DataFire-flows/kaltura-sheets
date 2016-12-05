@@ -13,6 +13,9 @@ flow
   })
   .step('sheet', {
     do: sheets['spreadsheets.create'](),
+    params: {
+      body: {properties: {title: "Kaltura Media"}},
+    }
   })
   .step('add_rows', {
     do: sheets.post('/v4/spreadsheets/{spreadsheetId}/values/{range}:append'),
