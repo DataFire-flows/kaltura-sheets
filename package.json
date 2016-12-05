@@ -1,0 +1,16 @@
+{
+  "name": "kaltura-sheets",
+  "version": "1.0.0",
+  "description": "This [DataFire](https://github.com/DataFire/DataFire) flow will export your Kaltura media library to a new Google Spreadsheet.",
+  "main": "flow.js",
+  "dependencies": {
+    "@datafire/google-sheets": "0.0.1",
+    "@datafire/kaltura": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
