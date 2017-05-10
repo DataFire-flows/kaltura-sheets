@@ -1,3 +1,5 @@
+> Deprecated: needs to be updated for v2
+
 # Export Kaltura Data to Google Spreadsheet
 
 This [DataFire](https://github.com/DataFire/DataFire) flow will export your
